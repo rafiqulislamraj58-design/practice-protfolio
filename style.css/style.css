@@ -124,3 +124,44 @@
  .card:hover{
     transform: translateY(-3px);
  }
+ .form{
+    max-width: 1320px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9f9;
+    border-radius: 20px;
+    margin: 40px auto;
+    box-shadow: 0 10px 9px rgba(0,0,0,0.1);
+    align-items: center;
+ }
+ .drop-your-maill{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #011936;
+ }
+ .contract-section{
+    padding: 60px 50px;
+    /* gap: 40px; */
+ }
+ .contract-section label{
+    font-size: 25px;
+    font-weight: 600;
+
+ }
+.name{
+    margin-bottom: 20px;
+}
+.name{
+    padding: 10px 50px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 10px 9px rgba(0,0,0,0.1);
+}
+.mail{
+    padding: 10px 50px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 10px 9px rgba(0,0,0,0.1);
+}
